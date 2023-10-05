@@ -3,4 +3,3 @@ target
 *.iml
 build
 Reports
-allure-results
