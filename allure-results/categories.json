@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Unknown Tests",
+    "matchedStatuses": ["unknown"]
+  },
+  {
+    "name": "Passed Tests",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name": "Skipped/Ignored Tests",
+    "matchedStatuses": ["skipped"]
+  },
+
+  {
+    "name": "Critical Errors",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*Exception.*|.*Error.*"
+  }
+]
